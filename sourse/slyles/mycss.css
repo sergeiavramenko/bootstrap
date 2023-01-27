@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
 body {
+    font-family: Michroma, serif;
     background: linear-gradient(90deg, #192ae1 0%, rgb(86, 186, 128) 100%);
 }
 .nav-link {
@@ -17,4 +19,31 @@ body {
     color:rgb(46, 63, 57);
     background: linear-gradient(270deg, #192ae1 0%, rgb(86, 186, 128) 100%);
 
+}
+.card {
+    background: linear-gradient(270deg, #192ae1 0%, rgb(86, 186, 128) 100%);
+    color:aquamarine;
+}
+.card a {
+    color:aquamarine;
+    text-decoration: none;
+}
+.slide-text,
+.footer-text {
+    color:aquamarine;
+    margin: auto auto ;
+}
+@media (max-width:755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+footer {
+    background: linear-gradient(270deg, #192ae1 0%, rgb(86, 186, 128) 100%);
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
